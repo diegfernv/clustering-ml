@@ -22,9 +22,9 @@ conda install -c conda-forge dice-ml
 pip install lightgbm xgboost matplotlib seaborn shap
 ```
 
-Adicionalmente se puede hacer uso de requirements.txt para instalar las librerías necesarias.
+Adicionalmente se puede hacer uso de environment.yml para instalar las librerías necesarias.
 ```bash
-conda create --name <env> --file requirements.txt
+conda env create -f environment.yml
 ```
 
 ## Uso
